@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f93b626-2ebf-404a-87ab-e9d4b8a9d396" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2zEo6Tqx2ufWKOZeOUilgEnvxSe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.AuctionBotApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ramesh/efootball-whatsapp-bot/auctionBot-SpringBoot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="AuctionBotApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auctionBot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.auctionbot.AuctionBotApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f93b626-2ebf-404a-87ab-e9d4b8a9d396" name="Changes" comment="" />
+      <created>1751305421889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751305421889</updated>
+      <workItem from="1751305422955" duration="6522000" />
+      <workItem from="1751352012089" duration="10575000" />
+      <workItem from="1751446921774" duration="7705000" />
+      <workItem from="1752669926807" duration="1390000" />
+      <workItem from="1753452545317" duration="101000" />
+      <workItem from="1753452851145" duration="678000" />
+      <workItem from="1753497490879" duration="640000" />
+      <workItem from="1753938359636" duration="2069000" />
+      <workItem from="1757250295163" duration="2251000" />
+      <workItem from="1757289278790" duration="50000" />
+      <workItem from="1757338996467" duration="7737000" />
+      <workItem from="1757376540363" duration="13000" />
+      <workItem from="1757392934069" duration="2011000" />
+      <workItem from="1757398418188" duration="4000" />
+      <workItem from="1757408478657" duration="11662000" />
+      <workItem from="1757480188483" duration="3991000" />
+      <workItem from="1757508898312" duration="11223000" />
+      <workItem from="1757595882696" duration="7230000" />
+      <workItem from="1757612161258" duration="61000" />
+      <workItem from="1757700334729" duration="8501000" />
+      <workItem from="1757908712214" duration="72000" />
+      <workItem from="1757909662657" duration="1055000" />
+      <workItem from="1757921022191" duration="192000" />
+      <workItem from="1757939784600" duration="1532000" />
+      <workItem from="1759317327254" duration="10000" />
+      <workItem from="1759320676896" duration="800000" />
+      <workItem from="1759376274217" duration="810000" />
+      <workItem from="1763993892249" duration="6243000" />
+      <workItem from="1764069574154" duration="8848000" />
+      <workItem from="1764149433940" duration="9452000" />
+      <workItem from="1764743538889" duration="59000" />
+      <workItem from="1765343685459" duration="1054000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>
