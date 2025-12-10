@@ -58,12 +58,12 @@ async function startBot() {
 
     if (!name || isNaN(price) || !team) {
       await sock.sendMessage(msg.key.remoteJid, {
-        text: `❌ Usage: !sell <player> <price> <team>`
+        text: ` Usage: !sell <player> <price> <team>`
       });
       return;
     }
     try{
-      const res=await axios.post('http://localhost:8080/auction/bid',{
+      const res=await axios.post('http://localhost:8080/auction/sold',{
         name,
         price,
         team,
@@ -71,11 +71,11 @@ async function startBot() {
       });
 
       await sock.sendMessage(msg.key.remoteJid,{
-        text:res.data.content|| `✅ ${name} sold to ${team} for ${price}M`
+        text:res.data.content|| ` ${name} sold to ${team} for ${price}M`
       });
     }catch(err){
       await sock.sendMessage(msg.key.remoteJid,{
-        text:  `❌ Failed to process sale.`
+        text:  ` Failed to process sale.`
       });
       console.error(err);
     }
@@ -97,7 +97,7 @@ async function startBot() {
     });
     }catch(err){
       await sock.sendMessage(msg.key.remoteJid,{
-        text: `❌ Failed to Get Balance of ${team}.`
+        text: ` Failed to Get Balance of ${team}.`
       });
       console.error(err);
     }
@@ -109,7 +109,7 @@ async function startBot() {
     });
     }catch(err){
       await sock.sendMessage(msg.key.remoteJid,{
-        text:'❌ Failed to Get Everyone Balance'
+        text:' Failed to Get Everyone Balance'
       });
     }
     
@@ -122,7 +122,7 @@ async function startBot() {
       });
     }catch(err){
       await sock.sendMessage(msg.key.remoteJid,{
-        text:'❌ Failed to Rollback'
+        text:' Failed to Rollback'
       });
     }
   }
@@ -143,7 +143,7 @@ async function startBot() {
       });
     }catch(err){
       await sock.sendMessage(msg.key.remoteJid,{
-        text:'❌ Failed to Get Team Info'
+        text:' Failed to Get Team Info'
       });
     }
   }
@@ -157,7 +157,7 @@ async function startBot() {
       });
     }catch(err){
       await sock.sendMessage(msg.key.remoteJid,{
-        text:'❌ Failed to Get Commands'
+        text:' Failed to Get Commands'
       });
     }
   }
@@ -171,7 +171,7 @@ async function startBot() {
       });
     }catch(err){
       await sock.sendMessage(msg.key.remoteJid,{
-        text:'❌ Failed to Get Next Player'
+        text:' Failed to Get Next Player'
       });
     }
   }
@@ -187,7 +187,7 @@ async function startBot() {
       })
     }catch(err){
       await sock.sendMessage(msg.key.remoteJid,{
-        text:'❌ Failed to Add All Players'
+        text:' Failed to Add All Players'
       });
     }
   }
@@ -230,7 +230,7 @@ async function startBot() {
 
     if (!name || isNaN(price) || !team) {
       await sock.sendMessage(msg.key.remoteJid, {
-        text: `❌ Usage: !sell <player> <price> <team>`
+        text: ` Usage: !sell <player> <price> <team>`
       });
       return;
     }
@@ -243,11 +243,11 @@ async function startBot() {
       });
 
       await sock.sendMessage(msg.key.remoteJid,{
-        text:res.data.content|| `✅ ${name} sold to ${team} for ${price}M`
+        text:res.data.content|| ` ${name} sold to ${team} for ${price}M`
       });
     }catch(err){
       await sock.sendMessage(msg.key.remoteJid,{
-        text:  `❌ Failed to process sale.`
+        text:  ` Failed to process sale.`
       });
       console.error(err);
     }
@@ -305,7 +305,7 @@ async function startBot() {
   }
 
     /*await sock.sendMessage(msg.key.remoteJid, {
-      text: `✅ ${player} sold to ${team} for ${price}M`
+      text: ` ${player} sold to ${team} for ${price}M`
     });*/
   });
 }

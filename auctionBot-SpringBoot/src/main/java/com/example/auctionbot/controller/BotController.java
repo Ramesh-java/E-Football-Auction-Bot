@@ -33,12 +33,12 @@ public class BotController {
     public Message showAllCommands() {
         StringBuilder commands = new StringBuilder();
 
-        commands.append("📌 *Available Auction Commands* 📌\n\n");
-        commands.append("1️⃣  *!balance <team_name>*\n")
+        commands.append(" *Available Auction Commands* \n\n");
+        commands.append("1  *!balance <team_name>*\n")
                 .append("     ➝ Check balance of a particular team\n\n");
-        commands.append("2️⃣  *!allBalance*\n")
+        commands.append("2️  *!allBalance*\n")
                 .append("     ➝ View balance of all teams\n\n");
-        commands.append("3️⃣  *!view <team_name>*\n")
+        commands.append("3️  *!view <team_name>*\n")
                 .append("     ➝ View players of a particular team\n\n");
 
         Message message = new Message();
@@ -58,7 +58,7 @@ public class BotController {
     }
 
 
-    @PostMapping("/bid")
+    @PostMapping("/sold")
     public Message sold(@RequestBody Data data){//!sell
         Message message=teamService.sell(data);
         if (data.getName().startsWith(String.valueOf(message.getContent().charAt(0)))){
